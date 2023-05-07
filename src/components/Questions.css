@@ -1,0 +1,302 @@
+
+
+.question {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid #e4e6e8;
+}
+
+.question-stats {
+  align-items: center;
+  margin-right: 16px;
+}
+
+.question-stats-item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.question-stats-item__emphasized {
+  font-weight: bold;
+}
+
+.question-stats-item-number {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.question-stats-item-unit {
+  font-size: 12px;
+  color: #6a737c;
+}
+
+.question-content {
+  flex: 1;
+}
+
+.question-content-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.question-content-title a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.question-content-excerpt {
+  color: #6a737c;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+}
+
+.user-card--avatar {
+  margin-right: 8px;
+}
+
+.user-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-card-link {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.user-card--rep {
+  font-size: 12px;
+  color: #6a737c;
+  margin-right: 4px;
+}
+
+.user-card--awards {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-card--awards li {
+  margin-right: 8px;
+}
+
+.user-card-time {
+  font-size: 12px;
+  color: #6a737c;
+  margin-left: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#mainbar {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+.fs-headline1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.aside-cta {
+  margin-left: auto;
+}
+
+.ws-nowrap {
+  white-space: nowrap;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #36c;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #258bd2;
+}
+
+.fs-body3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #848d95;
+}
+
+.uql-nav {
+  margin-left: 16px;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.sm-btn-border {
+  background-color: #fff;
+  border: 1px solid #d2d6db;
+  color: #6a737c;
+}
+
+.sm-btn {
+  padding: 3px 6px;
+  border-radius: 2px;
+  border-right-style: none;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.is-selected {
+  background-color: #f2f4f5;
+  border-color: #d2d6db;
+  color: #222;
+}
+
+.s-badge {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 6px;
+  border-radius: 3px;
+  margin-left: 4px;
+  background-color: #0074cc;
+  color: #fff;
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+.border-right-inset {
+  border-right-style: inset;
+}
+
+.filter-button {
+  background-color: #e1ecf4;
+  color: #004585;
+  border-radius: 2px;
+  border: 1px solid #d2d6db;
+}
+
+.filter-button .svg-icon {
+  vertical-align: baseline;
+  margin-top: -0.3em;
+  margin-bottom: -0.3em;
+  transition: opacity 200ms var(--te-smooth);
+  color: #004585 !important;
+}
+
+.list-margin {
+margin-left: 140px;
+margin-right: 140px;
+}
+
+.flush-left {
+  margin-left: 0;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  height: 16px;
+  padding: 0 12px;
+  border-radius: 3px;
+  background-color: #d0e3f1;
+  color: #3973b4;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.chip:hover {
+  background-color: #0069d9;
+}
+
+.chip:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #007bff;
+}
+
+.float-right {
+  float: right;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.pagination-content {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 2px;
+  color: #0c0d0e;
+  text-decoration: none;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.pagination-content:hover {
+  background-color: #f2f2f2;
+}
+
+.pagination-content.is-selected {
+  color: #fff;
+  background-color: #f48225;
+  border-color: #f48225;
+}
+
+.pagination-content-clear {
+  display: inline-block;
+  margin-left: 5px;
+  color: #6a737c;
+}
+
+.pagination-content[aria-current="page"] {
+  cursor: default;
+}
